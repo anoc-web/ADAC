@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAC Token</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #ff4444 0%, #ff8888 100%);
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h1 img {
+            height: 40px;
+            width: auto;
+        }
+        .info { margin: 20px 0; }
+        .label { font-weight: bold; color: #666; }
+        .address {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            word-break: break-all;
+        }
+        a { color: #ff4444; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <img src="LOGO_ADAC.svg" alt="ADAC Logo">
+            ADAC Token
+        </h1>
+        
+        <div class="info">
+            <p><span class="label">Nombre:</span> ADAC</p>
+            <p><span class="label">Símbolo:</span> ADAC</p>
+            <p><span class="label">Blockchain:</span> Polygon</p>
+            <p><span class="label">Supply total:</span> 1,000,000 ADAC</p>
+            <p><span class="label">Dirección del contrato:</span></p>
+            <div class="address">0x52E03689f549CAaC1b4aDD052A5b94d43cb35939</div>
+        </div>
+        
+        <div class="info">
+            <p><span class="label">Ver en PolygonScan:</span><br>
+            <a href="https://polygonscan.com/address/0x52E03689f549CAaC1b4aDD052A5b94d43cb35939" target="_blank">
+                https://polygonscan.com/address/0x52E03689f549CAaC1b4aDD052A5b94d43cb35939
+            </a></p>
+        </div>
+        
+        <div class="info">
+            <p><span class="label">Contacto:</span><br>
+            <a href="mailto:anoc.con@gmail.com">anoc.con@gmail.com</a>
+        </p></div>
+        
+        <hr>
+        <p style="color: #666; font-size: 0.9em; text-align: center;">
+            ADAC es un token comunitario en la red Polygon con un supply total de 1,000,000 tokens.
+            Únete a nuestra comunidad y sé parte del proyecto.
+        </p>
+    </div>
+</body>
+</html>
